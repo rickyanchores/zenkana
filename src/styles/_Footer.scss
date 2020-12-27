@@ -1,0 +1,12 @@
+/*COLORS*/
+$bgColor: #ccc;
+$mainColor: #333;
+$secondColor:rgba(248, 214, 23, 0.973);
+
+.Footer{
+    background: $secondColor;
+    color: $mainColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

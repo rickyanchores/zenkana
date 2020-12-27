@@ -1,0 +1,40 @@
+/* IMPORT */
+@import "./styles/Header";
+@import "./styles/Showcase";
+@import "./styles/Main";
+@import "./styles/Cards";
+@import "./styles/About";
+@import "./styles/Footer";
+
+
+/*COLORS*/
+$bgColor: #ccc;
+$mainColor: #333;
+$secondColor:rgba(248, 214, 23, 0.973);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $bgColor;
+    line-height: 1.6;
+    font-family: monospace;
+}
+button{
+    padding: 1em 3em;
+    border-radius: 30px;
+    border: none;
+    background: $mainColor;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+button:hover{
+    background: $secondColor;
+    color: #333;
+}
+img{
+    width: 100%;
+}

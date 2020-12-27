@@ -1,0 +1,21 @@
+/*COLORS*/
+$bgColor: #ccc;
+$mainColor: #333;
+$secondColor:rgba(248, 214, 23, 0.973);
+
+
+.Showcase{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+
+    background-image: url("https://images.unsplash.com/photo-1527111136983-08cdfef0cbba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        font-size: 3em;
+    }
+}

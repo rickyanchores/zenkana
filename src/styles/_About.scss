@@ -1,0 +1,26 @@
+/*COLORS*/
+$bgColor: #ccc;
+$mainColor: #333;
+$secondColor:rgba(248, 214, 23, 0.973);
+
+
+.About{
+    display: flex;
+    background-color: $mainColor;
+    color: $bgColor;
+    .txt-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3em;
+        h3{
+            font-size: 3em;
+            color: $secondColor;
+        }
+        button{
+            background-color: $secondColor;
+            margin: 1em;
+        }
+    }
+}

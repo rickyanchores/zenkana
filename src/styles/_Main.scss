@@ -1,0 +1,23 @@
+/*COLORS*/
+$bgColor: #ccc;
+$mainColor: #333;
+$secondColor:rgba(248, 214, 23, 0.973);
+
+
+.Main{
+    width: 80%;
+    margin: auto;
+    background: silver;
+    .title{
+        padding: 3em;
+    }
+    .img{
+        img{
+            padding: 2em;
+            width: 100%;
+        }
+    }
+    button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+/*COLORS*/
+$bgColor: #ccc;
+$mainColor: #333;
+$secondColor:rgba(248, 214, 23, 0.973);
+
+.Header{
+    background: #333;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    width: 100%;
+    .logo{
+        color: $secondColor;
+    }
+    .Nav{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: 1em;
+                a{
+                    color: whitesmoke;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: bolder;
+                }
+                a:hover{
+                    color: $secondColor;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,190 @@
+/* IMPORT */
+/*COLORS*/
+.Header {
+  background: #333;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.Header .logo {
+  color: rgba(248, 214, 23, 0.973);
+}
+
+.Header .Nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.Header .Nav ul li {
+  padding: 1em;
+}
+
+.Header .Nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: bolder;
+}
+
+.Header .Nav ul li a:hover {
+  color: rgba(248, 214, 23, 0.973);
+}
+
+/*COLORS*/
+.Showcase {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: whitesmoke;
+  background-image: url("https://images.unsplash.com/photo-1527111136983-08cdfef0cbba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Showcase h1 {
+  font-size: 3em;
+}
+
+/*COLORS*/
+.Main {
+  width: 80%;
+  margin: auto;
+  background: silver;
+}
+
+.Main .title {
+  padding: 3em;
+}
+
+.Main .img img {
+  padding: 2em;
+  width: 100%;
+}
+
+.Main button {
+  width: 100%;
+}
+
+/*COLORS*/
+.Cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.card {
+  width: 600px;
+  padding: 2em;
+}
+
+/*COLORS*/
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333;
+  color: #ccc;
+}
+
+.About .txt-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
+}
+
+.About .txt-box h3 {
+  font-size: 3em;
+  color: rgba(248, 214, 23, 0.973);
+}
+
+.About .txt-box button {
+  background-color: rgba(248, 214, 23, 0.973);
+  margin: 1em;
+}
+
+/*COLORS*/
+.Footer {
+  background: rgba(248, 214, 23, 0.973);
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*COLORS*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+  line-height: 1.6;
+  font-family: monospace;
+}
+
+button {
+  padding: 1em 3em;
+  border-radius: 30px;
+  border: none;
+  background: #333;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+button:hover {
+  background: rgba(248, 214, 23, 0.973);
+  color: #333;
+}
+
+img {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
