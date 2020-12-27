@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zenkana/static/css/main.01c6a50e.chunk.css",
+    "main.js": "/zenkana/static/js/main.374a306b.chunk.js",
+    "main.js.map": "/zenkana/static/js/main.374a306b.chunk.js.map",
+    "runtime-main.js": "/zenkana/static/js/runtime-main.a2cbe472.js",
+    "runtime-main.js.map": "/zenkana/static/js/runtime-main.a2cbe472.js.map",
+    "static/js/2.e1b513ad.chunk.js": "/zenkana/static/js/2.e1b513ad.chunk.js",
+    "static/js/2.e1b513ad.chunk.js.map": "/zenkana/static/js/2.e1b513ad.chunk.js.map",
+    "static/js/3.731d2b8d.chunk.js": "/zenkana/static/js/3.731d2b8d.chunk.js",
+    "static/js/3.731d2b8d.chunk.js.map": "/zenkana/static/js/3.731d2b8d.chunk.js.map",
+    "index.html": "/zenkana/index.html",
+    "static/css/main.01c6a50e.chunk.css.map": "/zenkana/static/css/main.01c6a50e.chunk.css.map",
+    "static/js/2.e1b513ad.chunk.js.LICENSE.txt": "/zenkana/static/js/2.e1b513ad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2cbe472.js",
+    "static/js/2.e1b513ad.chunk.js",
+    "static/css/main.01c6a50e.chunk.css",
+    "static/js/main.374a306b.chunk.js"
+  ]
+}
